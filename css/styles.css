@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Cedarville+Cursive&family=Corinthia:wght@700&family=Dancing+Script&family=Koulen&family=Montserrat:ital,wght@1,900&family=Oswald&family=Poppins:ital@1&family=Splash&display=swap');
+
+#title{
+    background-color: #ff4c68;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+    /* padding-bottom: 60px; */
+}
+
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .navbar-brand================================================================================================ */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0px 15px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.navbar-brand{
+    font-size: 2.45rem;
+    font-weight: bolder;
+}
+
+/* buttons download= ============================================*/
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+/* title ================================================================================================ */
+/* #title{
+    /* position: absolute; */
+    /* z-index: 1; */
+/* } */ 
+.row h1{
+    
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#cat-img{
+    position: absolute;
+    height: 500px;
+    width: auto;
+    top: 150px;
+    right: 225px;
+   
+}
+/* feturess============ ==========================================================================*/
+
+h3{
+    
+}
+.feature-box p{
+    color: gray;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#features{
+    padding: 8% 15%;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+/* testimonial section========================================================================================== */
+.carousel-indicators{
+    bottom: -47px;
+}
+#testimonials h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#testimonials{
+    padding: 8% 8%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+.testimonial-img{
+    width: 15%;
+    height: 15%;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.carousel-indicators{
+    bottom: -47px;
+}
+
+/* press section===================== ========================================================================*/
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+/* pricing section ======================================================================================= */
+.pricing-col{
+    padding: 3% 2%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+#pricing h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* <!-- Call to Action --==================================================================>  */
+
+#cta{
+    background-color: #ff4c68;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+
+#cta h3{
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+
+}
+
+/* footer==================== =====================================================================*/
+#footer i{
+    padding: 18px 15px;
+}
+#footer{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+/* media quries================= ======================================================================*/
+@media (max-width: 1058px) {
+
+    #title{
+        text-align: center;
+    }
+
+    #cat-img{
+        position: static;
+        /* position: relative; */
+        height: 260px;
+        width: 250px;
+    }
+    
+}
+
+@media (max-width: 360px) {
+    #cat-img{
+        position: static;
+        height: 260px;
+        width: 250px;
+    
+    }
+
+    #testimonials h2{
+        font-size: 29px;
+        padding: 20px 50px;
+
+    }
+}
+
